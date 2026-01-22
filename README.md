@@ -1,6 +1,6 @@
 # FacadeDiffusion
 The code of FacadeDiffusion.
-The code is released under the MIT License. 
+
 ## Dataset License
 
 The **LSAA-v2** dataset is a derivative work based on the
