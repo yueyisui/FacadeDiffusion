@@ -1,6 +1,6 @@
 # FaçadeDiffusion
 
-> **FaçadeDiffusion**: Building F açade Generation via Diffusion Models with Soft Semantic Guidance.  
+> **FaçadeDiffusion**: Building Façade Generation via Diffusion Models with Soft Semantic Guidance.  
 
 <p align="center">
   <img src="assets/figures/fig1_overview.png" width="100%"/>
@@ -44,7 +44,7 @@ This repo is dataset-agnostic. You only need paired data:
 - semantic map `S` (integer labels or color-coded map)
 - text prompt `T`
 
-See: `docs/DATASETS.md` for expected folder layout and label conventions.
+See [docs/DATASETS.md](https://github.com/yueyisui/FacadeDiffusion/blob/main/docs/DATASETS.md) for expected folder layout and label conventions.
 
 ---
 
@@ -55,8 +55,6 @@ Place your mp4/gif under `assets/demos/` and update the section below:
 
 - `assets/demos/lod_projection.mp4` (recommended)
 - `assets/demos/lod_projection.gif` (for README embedding)
-
-See: `docs/LOD_PROJECTION.md`.
 
 ---
 
@@ -73,7 +71,7 @@ See: `docs/EVALUATION.md`.
 
 - **Code**: Apache-2.0 (see `LICENSE`)  
 - **Dataset (if you release LSAA-v2)**: CC BY-NC-SA 4.0 (derivative work based on LSAA).  
-  See `docs/DATASETS.md` for the wording you can paste into your dataset README.
+  See [docs/DATASETS.md](https://github.com/yueyisui/FacadeDiffusion/blob/main/docs/DATASETS.md) for the wording you can paste into your dataset README.
 
 ---
 
