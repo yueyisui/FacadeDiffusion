@@ -59,13 +59,9 @@ See [docs/DATASETS.md](https://github.com/yueyisui/FacadeDiffusion/blob/main/doc
 
 ---
 
-## 🎬 LoD texture projection demo (video)
+## 🎬 LoD texture projection demo
 
-You mentioned a video of projecting generated façades onto LoD building models.  
-Place your mp4/gif under `assets/demos/` and update the section below:
-
-- `assets/demos/lod_projection.mp4` (recommended)
-- `assets/demos/lod_projection.gif` (for README embedding)
+<video src="assets/demos/lod_with_texture.mp4" controls width="80%"></video>
 
 ---
 
