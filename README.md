@@ -1,24 +1,83 @@
-# FacadeDiffusion
-The code of FacadeDiffusion.
+# FaçadeDiffusion
 
-## Dataset License
+> **FaçadeDiffusion**: Building F açade Generation via Diffusion Models with Soft Semantic Guidance.  
 
-The **LSAA-v2** dataset is a derivative work based on the
-[LSAA dataset](https://github.com/ZPdesu/lsaa-dataset?tab=readme-ov-file),
-with additional semantic annotations created by the authors.
-In accordance with the original license, **LSAA-v2** is released under the
-[ Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+<p align="center">
+  <img src="assets/figures/fig1_overview.png" width="100%"/>
+</p>
 
+## 🔥 Highlights
+- **Semantic layout control**: generate façades aligned with target semantic maps.
+- **Reference-style control**: use a reference façade image (and its semantic map) to transfer appearance while respecting structure.
+- **Supports partial reference**: center-cropped reference image → complete façade generation.
+- **LoD texture projection demo**: map generated façade textures onto LoD building models.
 
-<img width="2266" height="781" alt="image" src="https://github.com/user-attachments/assets/f9764694-7d62-47d7-99f3-74a9d1663827" />
+<p align="center">
+  <img src="assets/figures/fig2_pipeline.png" width="100%"/>
+</p>
 
+---
 
-<img width="1624" height="642" alt="image" src="https://github.com/user-attachments/assets/2c16efe0-47af-446d-8c1c-c88f67a0646c" />
+## 📌 News
+- **2026-01-25**: Initial public repo template + paper figures.
 
+---
 
-<img width="1714" height="2187" alt="image" src="https://github.com/user-attachments/assets/a8270614-d331-4880-97e2-2339491a0034" />
+## 🧩 Method at a glance
 
+### Experiment setting 1: different reference façades + semantic layouts
+<p align="center">
+  <img src="assets/figures/exp1_multi_ref_semantic.png" width="100%"/>
+</p>
 
-<img width="1928" height="909" alt="image" src="https://github.com/user-attachments/assets/32064084-b0ba-452a-ab72-6d7d6cdd7f68" />
+### Experiment setting 2: center-cropped reference → full façade completion
+<p align="center">
+  <img src="assets/figures/exp2_center_crop_reference.png" width="100%"/>
+</p>
 
+---
+
+## 📦 Data preparation
+
+This repo is dataset-agnostic. You only need paired data:
+- RGB façade image `I`
+- semantic map `S` (integer labels or color-coded map)
+- text prompt `T`
+
+See: `docs/DATASETS.md` for expected folder layout and label conventions.
+
+---
+
+## 🎬 LoD texture projection demo (video)
+
+You mentioned a video of projecting generated façades onto LoD building models.  
+Place your mp4/gif under `assets/demos/` and update the section below:
+
+- `assets/demos/lod_projection.mp4` (recommended)
+- `assets/demos/lod_projection.gif` (for README embedding)
+
+See: `docs/LOD_PROJECTION.md`.
+
+---
+
+## 📊 Evaluation
+
+- Semantic parsing metrics: mIoU / F1 / Precision / Recall / Accuracy
+- Appearance consistency: LPIPS / CLIP-Score / FID / DINO / CLIP-IQA / CLIP-based multi-façade similarity (CLIP-MF), etc.
+
+See: `docs/EVALUATION.md`.
+
+---
+
+## 🧾 License
+
+- **Code**: Apache-2.0 (see `LICENSE`)  
+- **Dataset (if you release LSAA-v2)**: CC BY-NC-SA 4.0 (derivative work based on LSAA).  
+  See `docs/DATASETS.md` for the wording you can paste into your dataset README.
+
+---
+
+## 🙏 Acknowledgements
+- Built on top of the Diffusers / Accelerate ecosystem.
+- Thanks to the authors of LSAA and related façade datasets.
 

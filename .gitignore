@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.log
+*.tmp
+.DS_Store
+
+# env
+.venv/
+venv/
+.env
+*.env
+
+# outputs
+runs/
+outputs/
+checkpoints/
+wandb/
+
+# notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
