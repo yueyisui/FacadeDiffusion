@@ -62,11 +62,11 @@ See [docs/DATASETS.md](https://github.com/yueyisui/FacadeDiffusion/blob/main/doc
 ## 🎬 LoD texture projection demo
 
 <p align="center">
-  <img src="assets/demos/lod_with_texture.gif" width="80%"/>
+  <img src="assets/lod_with_texture.gif" width="80%"/>
 </p>
 
 ▶️ **Full-resolution video**:  
-[Download MP4](assets/demos/lod_with_texture.mp4)
+[Download MP4](assets/lod_with_texture.mp4)
 
 
 ---
