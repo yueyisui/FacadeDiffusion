@@ -11,6 +11,7 @@
 - **Reference-style control**: use a reference façade image (and its semantic map) to transfer appearance while respecting structure.
 - **Supports partial reference**: center-cropped reference image → complete façade generation.
 - **LoD texture projection demo**: map generated façade textures onto LoD building models.
+- **LSAA-v2 datasets**: provides 5,961 building façade images with corresponding semantic labels and text prompts.
 
 <p align="center">
   <img src="assets/figures/fig2_pipeline.png" width="100%"/>
