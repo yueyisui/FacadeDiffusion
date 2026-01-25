@@ -23,8 +23,8 @@
 
 **LSAA-v2** provides **5,961 building façade images** with paired **semantic labels and text prompts**.
 
--The **test split** of LSAA-v2 can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1PLhzE8qJrwigYaXsqC40buLZRlF5H3B6?hl=zh-cn).
--The **train split** of LSAA-v2 is coming soon.
+- The **test split** of LSAA-v2 can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1PLhzE8qJrwigYaXsqC40buLZRlF5H3B6?hl=zh-cn).
+- The **train split** of LSAA-v2 is coming soon.
 
 ---
 
