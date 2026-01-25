@@ -19,12 +19,23 @@
 
 ---
 
-## 📌 News
-- **2026-01-25**: Initial public repo template + paper figures.
+## 🏢 LSAA-v2 Dataset
+
+**LSAA-v2** provides **5,961 building façade images** with paired **semantic labels and text prompts**.
+
+The **test split** of LSAA-v2 can be downloaded from  
+[Google Drive](https://drive.google.com/drive/folders/1PLhzE8qJrwigYaXsqC40buLZRlF5H3B6?hl=zh-cn).
+The **train split** of LSAA-v2 is coming soon.
 
 ---
 
-## 🧩 Method at a glance
+## 📌 News
+- **2026-01-25**: Initial public repo template + paper figures.
+- 
+
+---
+
+## 🧩 Results at a glance
 
 ### Experiment setting 1: different reference façades + semantic layouts
 <p align="center">
@@ -72,7 +83,7 @@ See: [docs/EVALUATION](https://github.com/yueyisui/FacadeDiffusion/blob/main/doc
 
 - **Code**: Apache-2.0 (see [LICENSE](https://github.com/yueyisui/FacadeDiffusion/blob/main/LICENSE))  
 - **Dataset (if you release LSAA-v2)**: CC BY-NC-SA 4.0 (derivative work based on LSAA).  
-  See [docs/DATASETS.md](https://github.com/yueyisui/FacadeDiffusion/blob/main/docs/DATASETS.md) for the wording you can paste into your dataset README.
+  See [docs/DATASETS.md](https://github.com/yueyisui/FacadeDiffusion/blob/main/docs/DATASETS.md).
 
 ---
 
