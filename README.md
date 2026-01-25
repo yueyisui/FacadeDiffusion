@@ -63,13 +63,13 @@ Place your mp4/gif under `assets/demos/` and update the section below:
 - Semantic parsing metrics: mIoU / F1 / Precision / Recall / Accuracy
 - Appearance consistency: LPIPS / CLIP-Score / FID / DINO / CLIP-IQA / CLIP-based multi-façade similarity (CLIP-MF), etc.
 
-See: `docs/EVALUATION.md`.
+See: [docs/EVALUATION](https://github.com/yueyisui/FacadeDiffusion/blob/main/docs/EVALUATION.md).
 
 ---
 
 ## 🧾 License
 
-- **Code**: Apache-2.0 (see `[LICENSE](https://github.com/yueyisui/FacadeDiffusion/blob/main/LICENSE)`)  
+- **Code**: Apache-2.0 (see [LICENSE](https://github.com/yueyisui/FacadeDiffusion/blob/main/LICENSE))  
 - **Dataset (if you release LSAA-v2)**: CC BY-NC-SA 4.0 (derivative work based on LSAA).  
   See [docs/DATASETS.md](https://github.com/yueyisui/FacadeDiffusion/blob/main/docs/DATASETS.md) for the wording you can paste into your dataset README.
 
