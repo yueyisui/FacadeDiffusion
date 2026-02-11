@@ -83,7 +83,7 @@ See: [docs/EVALUATION](https://github.com/yueyisui/FacadeDiffusion/blob/main/doc
 ## 🧾 License
 
 - **Code**: Apache-2.0 (see [LICENSE](https://github.com/yueyisui/FacadeDiffusion/blob/main/LICENSE))  
-- **Dataset (if you release LSAA-v2)**: CC BY-NC-SA 4.0 (derivative work based on LSAA).  
+- **Dataset**: CC BY-NC-SA 4.0 (derivative work based on LSAA).  
   See [docs/DATASETS.md](https://github.com/yueyisui/FacadeDiffusion/blob/main/docs/DATASETS.md).
 
 ---
